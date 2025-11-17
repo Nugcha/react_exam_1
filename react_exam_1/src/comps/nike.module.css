@@ -1,0 +1,104 @@
+.page {
+    background: #e7ddf6;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    width: 330px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardTop {
+    height: 230px;
+    position: relative;
+    background-image: linear-gradient(to right, black, #968dc4);
+  }
+  
+  .heart {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.95;
+  }
+  
+  .shoe {
+    width: 260px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+  }
+  
+  .cardBody {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .tag {
+    background: #f0f1f3;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .priceLabel {
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 3px;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .button {
+    background: #6f63c0;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:focus {
+    outline: 2px solid rgba(111, 99, 192, 0.3);
+    outline-offset: 2px;
+  }
