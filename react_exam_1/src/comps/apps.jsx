@@ -9,7 +9,8 @@ function apps(){
     return(
       <>
       <h1> Nike Running Shoe </h1>
-      <p> Jordan Idrovo </p>
+      <p> EU38 </p>
+      <p> BLACK/WHITE</p>
       </>
     );
   }
